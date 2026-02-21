@@ -1,0 +1,22 @@
+﻿<Application x:Class="Codev.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Codev"
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             StartupUri="Init.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="CustomToggleSwitch" TargetType="ToggleButton" BasedOn="{StaticResource ToggleButtonSwitch}">
+                <Style.Triggers>
+                    <Trigger Property="IsChecked" Value="True">
+                        <Setter Property="Background" Value="#FF623ED0"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
