@@ -14,6 +14,6 @@
 
 ![Login](/UI_V1.png)
 
-# UI_Splas_Screen
+# UI_Splash_Screen
 
 ![Splash](/UI_Splash.png)
