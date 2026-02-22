@@ -13,3 +13,7 @@
 # UI_Login
 
 ![Login](/UI_V1.png)
+
+# UI_Splas_Screen
+
+![Splash](/UI_Splash.png)
